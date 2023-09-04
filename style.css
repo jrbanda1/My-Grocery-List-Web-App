@@ -25,6 +25,61 @@ body {
     margin: .5em;
     font-size: 4em;
     font-weight: lighter;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
+    color: var(--accent);
 
+}
+
+.newGroceryForm{
+    display: flex;
+
+}
+#newGrocery{
+    background-color: white;
+    color: var(--comment);
+    padding: 0.5em;
+    width: 20em;
+    font-size: 1.5em;
+    border-radius: 0.25em 0em 0em 0.25em;
+
+
+}
+
+#addBtn {
+    background-color: var(--accent);
+    color: var(--background);
+    padding: .5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0em 0.25em 0.25em 0em;
+    
+}
+
+#addBtn:hover{
+background-color: var(--purplish);
+}
+
+#groceryList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border-radius: .5em;
+    background-color: var(--comment);
+}
+
+.groceryItem{
+    background-color: white;
+    color: var(--background);
+    margin: .5em;
+    width: 24em;
+    padding: .5em;
+    border-radius: .35em;
+}
+
+.groceryItem:hover{
+    background-color: var(--purplish);
+    font-weight: bold;
 }
