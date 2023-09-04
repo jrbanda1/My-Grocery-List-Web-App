@@ -65,7 +65,7 @@ background-color: var(--purplish);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 2em;
     border-radius: .5em;
     background-color: var(--comment);
 }
@@ -76,7 +76,10 @@ background-color: var(--purplish);
     margin: .5em;
     width: 24em;
     padding: .5em;
-    border-radius: .35em;
+    text-align: center;
+    border-radius: .25em;
+    cursor: pointer;
+
 }
 
 .groceryItem:hover{
